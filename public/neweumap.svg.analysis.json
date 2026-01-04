@@ -1,0 +1,62 @@
+{
+  "format_version": "1.0",
+  "source": "generated_sample",
+  "width": 2000,
+  "height": 1500,
+  "territories": [
+    {
+      "id": "t1",
+      "name": "North Coast",
+      "path": "M100 100 L900 120 L850 400 L120 420 Z",
+      "bbox": [0.05, 0.0666666667, 0.4, 0.2133333333],
+      "centroid": [0.24625, 0.1733333333],
+      "neighbors": ["t2", "t3"],
+      "properties": { "color": "#A7D3E3" }
+    },
+    {
+      "id": "t2",
+      "name": "East Hills",
+      "path": "M900 120 L1700 100 L1750 450 L850 400 Z",
+      "bbox": [0.425, 0.0666666667, 0.425, 0.2266666667],
+      "centroid": [0.9875, 0.1983333333],
+      "neighbors": ["t1", "t3", "t4"],
+      "properties": { "color": "#CDEBB0" }
+    },
+    {
+      "id": "t3",
+      "name": "Central Plain",
+      "path": "M120 420 L850 400 L1750 450 L1600 900 L700 980 L150 820 Z",
+      "bbox": [0.075, 0.2666666667, 0.7875, 0.41],
+      "centroid": [0.775, 0.5966666667],
+      "neighbors": ["t1", "t2", "t4", "t5"],
+      "properties": { "color": "#F0D9B5" }
+    },
+    {
+      "id": "t4",
+      "name": "South-East Marsh",
+      "path": "M1600 900 L1750 450 L1900 700 L1850 1200 L1400 1100 Z",
+      "bbox": [0.7, 0.3, 0.25, 0.6],
+      "centroid": [0.76, 0.8066666667],
+      "neighbors": ["t2", "t3", "t6"],
+      "properties": { "color": "#BEE7C6" }
+    },
+    {
+      "id": "t5",
+      "name": "South-West Plateau",
+      "path": "M150 820 L700 980 L900 1200 L300 1250 Z",
+      "bbox": [0.075, 0.5466666667, 0.4125, 0.2866666667],
+      "centroid": [0.5125, 0.9266666667],
+      "neighbors": ["t3", "t6"],
+      "properties": { "color": "#E9C6C6" }
+    },
+    {
+      "id": "t6",
+      "name": "Far South",
+      "path": "M900 1200 L1400 1100 L1850 1200 L1600 1450 L800 1400 Z",
+      "bbox": [0.4, 0.7333333333, 0.725, 0.1466666667],
+      "centroid": [0.9875, 0.84],
+      "neighbors": ["t4", "t5"],
+      "properties": { "color": "#D6E9FF" }
+    }
+  ]
+}
